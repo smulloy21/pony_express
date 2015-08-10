@@ -13,8 +13,6 @@ get('/shipping_costs') do
   height = params.fetch('height').to_i
   weight = params.fetch('weight').to_i
   distance = params.fetch('distance').to_i
-
   @cost = Parcel.new(length, width, height, weight).cost_to_ship(distance)
-
   erb(:shipping_costs)
 end
