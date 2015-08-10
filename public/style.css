@@ -1,0 +1,22 @@
+body {
+    background-color: #c16202;
+    text-align: center;
+}
+.container-fluid {
+    background-color: 	#e1a86f;
+    margin-top: 60px;
+    padding: 50px;
+    border-radius: 20px;
+}
+h1 {
+  margin-bottom: 50px;
+}
+h3 {
+  text-align: left;
+}
+
+.btn {
+  background-color: #f0c646;
+  color: #241010;
+  border: #241010
+}
